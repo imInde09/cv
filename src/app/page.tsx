@@ -204,10 +204,14 @@ export default function Page() {
                     </div>
                   </div>
                   <h4 className="font-mono text-sm leading-none">
-                  {certification.providerName}
-                </h4>
-                </CardHeader>                
-                <CardContent className="mt-2">Certificate ID: {certification.certificateId}</CardContent>
+                    {certification.providerName}
+                  </h4>
+                </CardHeader>
+                {certification.certificateId ? (
+                  <CardContent className="mt-2">
+                    Certificate ID: {certification.certificateId}
+                  </CardContent>
+                ) : null}
               </Card>
             );
           })}
@@ -233,9 +237,9 @@ export default function Page() {
                     </div>
                   </div>
                   <h4 className="font-mono text-sm leading-none">
-                  {publication.providerName}
-                </h4>
-                </CardHeader>               
+                    {publication.providerName}
+                  </h4>
+                </CardHeader>
                 <CardContent className="mt-2">{publication.description}</CardContent>
               </Card>
             );

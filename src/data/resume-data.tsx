@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Badlapur, India, IST",
   locationLink: "https://www.google.com/maps/place/Badlapur,+Maharashtra/@19.1640014,73.2024717,13z/data=!3m1!4b1!4m6!3m5!1s0x3be7ed5c9bc71bbd:0x87d539b0621850f3!8m2!3d19.1667854!4d73.2367896!16zL20vMDR4NmJo?entry=ttu",
   about:
-    "A skilled Front-end engineer and Platform Engineer with expertise in Angular, AWS, and building responsive interfaces.",
+    "A skilled Front-end Engineer and Platform Engineer with expertise in Angular, AWS, and building responsive interfaces.",
   summary:
-    "A motivated front-end engineer and platform engineer with expertise in Angular, HTML, CSS, JavaScript and responsive interface development. Skilled in crafting intuitive user experiences using design thinking principles. Published academic research on emerging technologies demonstrates analytical abilities. Google Cloud certified with hands-on experience in cloud infrastructure and services. Passionate about absorbing new frameworks and leveraging technologies for scalable solutions. Eager to join a collaborative team and expand skillset across the design-engineering spectrum. Driven to continuously improve interfaces for optimal usability, aesthetics and performance.",
+    "A motivated Front-End Engineer and Platform Engineer with expertise in Angular, HTML, CSS, JavaScript and responsive interface development. Skilled in crafting intuitive user experiences using design thinking principles. Published academic research on emerging technologies demonstrates analytical abilities. Google Cloud certified with hands-on experience in cloud infrastructure and services. Passionate about absorbing new frameworks and leveraging technologies for scalable solutions. Eager to join a collaborative team and expand skillset across the design-engineering spectrum. Driven to continuously improve interfaces for optimal usability, aesthetics and performance.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQG1s-Ln-Lht-g/profile-displayphoto-shrink_800_800/0/1646403027294?e=2147483647&v=beta&t=uNMcnMKqpdhgYXInuRj6EczSCqpMY8DfFoVj0bcE5h0",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -63,11 +63,22 @@ export const RESUME_DATA = {
     {
       company: "Quantiphi",
       link: "https://quantiphi.com/",
+      badges: ["Hybrid"],
+      title: "Framework Engineer",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "Present",
+      description:
+        "Collaborated with experienced platform engineers to support the developmentand maintenance of technology platforms. Gained hands-on experience with cloud computing platforms like AWS and GCP.Assisted in the automation of deployment processes and optimized system performance.",
+    },
+    {
+      company: "Quantiphi",
+      link: "https://quantiphi.com/",
       badges: ["Remote"],
       title: "Platform Engineer Intern",
       logo: ParabolLogo,
       start: "2023",
-      end: "2023",
+      end: "2024",
       description:
         "Collaborated with experienced platform engineers to support the developmentand maintenance of technology platforms. Gained hands-on experience with cloud computing platforms like AWS and GCP.Assisted in the automation of deployment processes and optimized system performance.",
     },
@@ -180,6 +191,22 @@ export const RESUME_DATA = {
       issueDate: "2023",
       expirationDate: "2026",
       certificateId: "ANaq1W"
+    },
+    {
+      name: "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+      providerName: "Oracle Cloud",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=E22C8AD1BAAA1C8F52DB691B64BEC43C8359B5F638AA852BF3DA3C80FAA7393F",
+      issueDate: "2023",
+      expirationDate: "2025",
+      // certificateId: "ANaq1W"
+    },
+    {
+      name: "Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate",
+      providerName: "Oracle Cloud",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=17B223F1C7E0DFBF8048E42974ABCC5D547471B9AC74C350BF0E2E31E59C7769",
+      issueDate: "2023",
+      expirationDate: "2025",
+      // certificateId: "ANaq1W"
     },
   ],
   publication: [
