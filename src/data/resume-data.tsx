@@ -198,7 +198,7 @@ export const RESUME_DATA = {
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=E22C8AD1BAAA1C8F52DB691B64BEC43C8359B5F638AA852BF3DA3C80FAA7393F",
       issueDate: "2023",
       expirationDate: "2025",
-      // certificateId: "ANaq1W"
+      certificateId: "Oracle"
     },
     {
       name: "Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate",
@@ -206,7 +206,7 @@ export const RESUME_DATA = {
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=17B223F1C7E0DFBF8048E42974ABCC5D547471B9AC74C350BF0E2E31E59C7769",
       issueDate: "2023",
       expirationDate: "2025",
-      // certificateId: "ANaq1W"
+      certificateId: "Oracle"
     },
   ],
   publication: [
