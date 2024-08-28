@@ -25,11 +25,11 @@ export const RESUME_DATA = {
   location: "Badlapur, India, IST",
   locationLink: "https://www.google.com/maps/place/Badlapur,+Maharashtra/@19.1640014,73.2024717,13z/data=!3m1!4b1!4m6!3m5!1s0x3be7ed5c9bc71bbd:0x87d539b0621850f3!8m2!3d19.1667854!4d73.2367896!16zL20vMDR4NmJo?entry=ttu",
   about:
-    "A skilled Front-end Engineer and Platform Engineer with expertise in Angular, AWS, and building responsive interfaces.",
+    "Platform Engineer",
   summary:
-    "A motivated Front-End Engineer and Platform Engineer with expertise in Angular, HTML, CSS, JavaScript and responsive interface development. Skilled in crafting intuitive user experiences using design thinking principles. Published academic research on emerging technologies demonstrates analytical abilities. Google Cloud certified with hands-on experience in cloud infrastructure and services. Passionate about absorbing new frameworks and leveraging technologies for scalable solutions. Eager to join a collaborative team and expand skillset across the design-engineering spectrum. Driven to continuously improve interfaces for optimal usability, aesthetics and performance.",
+    "A motivated Front-End Engineer and Platform Engineer with expertise in Angular, HTML, CSS, JavaScript, and responsive interface development. Skilled in crafting intuitive user experiences using design thinking principles. Published academic research on emerging technologies demonstrates analytical abilities. Google Cloud certified with hands-on experience in cloud infrastructure and services. Passionate about absorbing new frameworks and leveraging technologies for scalable solutions. Eager to join a collaborative team and expand skillset across the design-engineering spectrum. Driven to continuously improve interfaces for optimal usability, aesthetics, and performance.",
   avatarUrl: "https://media.licdn.com/dms/image/C5603AQG1s-Ln-Lht-g/profile-displayphoto-shrink_800_800/0/1646403027294?e=2147483647&v=beta&t=uNMcnMKqpdhgYXInuRj6EczSCqpMY8DfFoVj0bcE5h0",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://iminde09.github.io/prathamesh-inde/",
   contact: {
     email: "prathameshinde86@gmail.com",
     tel: "+917057238682",
@@ -63,7 +63,7 @@ export const RESUME_DATA = {
     {
       company: "Quantiphi",
       link: "https://quantiphi.com/",
-      badges: ["Hybrid"],
+      badges: ["Hybrid","Present"],
       title: "Framework Engineer",
       logo: ParabolLogo,
       start: "2024",
@@ -127,11 +127,22 @@ export const RESUME_DATA = {
     "Jenkins",
     "Terraform",
     "Bootstrap",
+    "Google Cloud","Oracle Cloud","Snowflake"
     // "GraphQL",
     // "Relay",
     // "WebRTC",
   ],
   projects: [
+    {
+      "title": "Cloud Resource Logger",
+      "techStack": ["Node.js", "JavaScript", "AWS SDK", "Commander"],
+      "description": "A CLI tool for listing AWS resources such as EC2 instances, S3 buckets, Lambda functions, and DynamoDB tables.",
+      "logo": "YourLogoImageHere",  // Replace with the path to your logo image if available
+      "link": {
+        "label": "cloud-resource-logger on npm",
+        "href": "https://www.npmjs.com/package/cloud-resource-logger"
+      }
+    },    
     {
       title: "Admin Portal",
       techStack: [
@@ -185,12 +196,20 @@ export const RESUME_DATA = {
   ],
   certification: [
     {
+      name: "Snowflake SnowPro Core Certification",
+      providerName: "Snowflake",
+      link: "https://achieve.snowflake.com/9d9e6bb5-09c1-4a6e-8eb4-704c32cb4844#gs.e9renw",
+      issueDate: "2024",
+      expirationDate: "2026",
+      // certificateId: "ANaq1W"
+    },
+    {
       name: "Google Cloud Certified - Associate Cloud Architect",
       providerName: "Google Cloud",
       link: "https://google.accredible.com/13f031af-b785-4224-bf86-0c7cccfd91c1?key=258dfc25da7a8b5c117f1e75c8892989ddc8cac9b8d635b0cd697a2fdb6497a5",
       issueDate: "2023",
       expirationDate: "2026",
-      certificateId: "ANaq1W"
+      // certificateId: "ANaq1W"
     },
     {
       name: "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
@@ -198,7 +217,7 @@ export const RESUME_DATA = {
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=E22C8AD1BAAA1C8F52DB691B64BEC43C8359B5F638AA852BF3DA3C80FAA7393F",
       issueDate: "2023",
       expirationDate: "2025",
-      certificateId: "Oracle"
+      // certificateId: "Oracle"
     },
     {
       name: "Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate",
@@ -206,7 +225,7 @@ export const RESUME_DATA = {
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=17B223F1C7E0DFBF8048E42974ABCC5D547471B9AC74C350BF0E2E31E59C7769",
       issueDate: "2023",
       expirationDate: "2025",
-      certificateId: "Oracle"
+      // certificateId: "Oracle"
     },
   ],
   publication: [
