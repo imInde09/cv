@@ -194,6 +194,7 @@ export default function Page() {
                         className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                         href={certification.link}
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         {certification.name}
                       </a>
@@ -206,15 +207,16 @@ export default function Page() {
                     {certification.providerName}
                   </h4>
                 </CardHeader>
-                {certification.certificateId ? (
-                  <CardContent className="mt-2">
-                    Certificate ID: {certification.certificateId}
-                  </CardContent>
-                ) : null}
+                {/* {certification.certificateId && (
+          <CardContent className="mt-2">
+            Certificate ID: {certification.certificateId}
+          </CardContent>
+        )} */}
               </Card>
             );
           })}
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Publications</h2>
           {RESUME_DATA.publication.map((publication) => {
